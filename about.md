@@ -1,18 +1,22 @@
 ---
-layout: page
 title: About
+layout: page
 permalink: /about/
+hide_hero: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor, erat et venenatis ultricies, metus urna efficitur urna, molestie tristique enim diam sit amet urna. Ut sit amet nibh ullamcorper orci finibus varius. Suspendisse laoreet odio ut ex tincidunt lacinia. Vestibulum eu dolor magna. Pellentesque a iaculis diam. Sed facilisis tempor placerat. Praesent eu fermentum eros. In hac habitasse platea dictumst. [Mauris](https://google.ca/) sed augue ipsum. Proin non enim feugiat, mattis lacus sit amet, egestas mi. Nam tincidunt, risus vel porttitor consectetur, felis erat cursus purus, pellentesque pharetra mi leo ut urna. Aliquam fermentum ligula non diam interdum, at consectetur metus aliquet. Nullam malesuada libero quis justo dapibus, eget suscipit nunc sollicitudin.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Nunc nibh risus, blandit sed dui vitae, pretium gravida nibh. Cras leo sem, auctor vitae libero sit amet, imperdiet scelerisque sem. Vestibulum fermentum ullamcorper suscipit. In dapibus sem non nulla feugiat pharetra. Sed a arcu magna. Mauris massa nisi, luctus ut suscipit nec, accumsan sit amet sem. Nunc sed odio id sem placerat dictum finibus volutpat elit. Nunc posuere arcu in tellus congue gravida. Ut diam lectus, tristique eget nisi sed, bibendum mattis arcu. Nullam euismod magna metus, eget tincidunt risus commodo id. Fusce varius tellus arcu, id iaculis sem pulvinar sit amet. Duis pretium lacus et ullamcorper eleifend.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Phasellus vestibulum lorem eu bibendum tristique. Nullam diam urna, lacinia vel dictum nec, porta in justo. Pellentesque vestibulum interdum diam, eget mollis magna. Nulla id efficitur ante. Ut velit quam, facilisis sit amet ullamcorper quis, sollicitudin quis lacus. Cras non placerat sem. Integer quis convallis nisl. Pellentesque tincidunt, libero cursus porta congue, augue turpis volutpat justo, vel lacinia dui risus quis magna. Sed a vulputate neque, dignissim mattis enim.
 
+Etiam turpis lectus, fermentum ac sem non, placerat sollicitudin quam. Integer tincidunt nisi erat, vel hendrerit nunc dapibus nec. Vestibulum ut congue felis. Maecenas pulvinar velit eu luctus aliquam. Nulla urna risus, dictum eget libero vitae, pretium accumsan nunc. Cras eget tincidunt augue, vitae molestie diam. Aenean non lectus interdum, maximus mauris ac, cursus est. Nam elit odio, interdum ac turpis fringilla, tristique cursus quam. Morbi aliquam metus at risus convallis, quis faucibus lorem convallis.
 
-[jekyll-organization]: https://github.com/jekyll
+Phasellus eu turpis eget sapien egestas suscipit. Pellentesque finibus convallis tortor ut pulvinar. Nulla non pulvinar ligula. Vestibulum at velit sed purus egestas dictum. Donec rhoncus eget leo sit amet luctus. Vivamus vel odio posuere, dignissim ex eget, efficitur nunc. Quisque suscipit est id eros malesuada dapibus. Donec sollicitudin euismod justo quis tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque volutpat sem vel mi malesuada viverra. Curabitur nunc ligula, euismod at risus dignissim, vestibulum convallis nibh. Curabitur ac lacinia nisi, non tempus arcu. Morbi volutpat nec nisl sit amet lacinia. Nam porta viverra lacus vel lacinia.
+
+Curabitur eget nulla ut sapien faucibus aliquam eget a purus. Nam diam diam, dapibus eu porta in, sodales ac ipsum. Mauris sit amet cursus elit. Nullam ante neque, lobortis sit amet viverra non, pharetra quis justo. Morbi molestie, velit id volutpat tempus, lacus nulla ultricies quam, a congue dolor libero ut nisl. Praesent risus justo, pharetra vel consectetur eu, luctus vel eros. Suspendisse potenti. Praesent rutrum ante erat, vel tincidunt urna porttitor feugiat. Donec at elit sapien. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Suspendisse id neque iaculis, imperdiet metus sit amet, elementum ante. Nulla diam arcu, sagittis ut eros in, porttitor vehicula libero. Cras nec dolor non lectus pulvinar finibus a non justo. Phasellus mauris mi, dignissim dapibus dapibus vel, sollicitudin ac eros. Aenean interdum purus ut tortor pretium semper. Mauris pulvinar massa nec massa semper, quis molestie odio posuere. Quisque scelerisque nisi dui, nec semper est convallis nec. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin suscipit magna nisi, viverra fringilla dolor porttitor eget. Pellentesque dapibus velit at commodo tincidunt. Maecenas ut lectus at orci viverra posuere id in leo. Mauris in est diam. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+Ut nisl sem, ultricies id orci ut, pharetra tincidunt sem. Mauris vitae vehicula lacus. Praesent ut lacus ac neque lobortis vehicula. [Aenean](https://wikipedia.org/) sit amet sagittis mauris, a cursus ante. Nulla eget lorem euismod, semper dolor a, sollicitudin felis. Sed auctor non odio id consequat. Quisque eget faucibus ex, et egestas augue. Aliquam semper ex mi, ut molestie sem pulvinar non. Duis cursus, risus non consequat cursus, urna ante interdum justo, vel tristique odio quam vel nulla. Aliquam eget mi elit. Praesent in risus bibendum, imperdiet odio vel, consectetur erat. Ut ultrices lectus sem, convallis accumsan augue consectetur in. Curabitur tincidunt, lorem sit amet ultrices efficitur, neque nisl porta massa, ac vehicula sem diam vitae turpis.
