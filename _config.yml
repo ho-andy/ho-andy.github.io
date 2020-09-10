@@ -24,6 +24,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 hide_share_buttons: true
+google_analytics: UA-177753945-1
 
 # Build settings
 markdown: kramdown
@@ -35,7 +36,7 @@ paginate_path: "/blog/page:num"
 
 defaults:
   -
-    values:
+    values:  #adds name to post
       author: "Andy Ho"
       layout: post
 
