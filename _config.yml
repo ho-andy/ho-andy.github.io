@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
+title: Andy Ho
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -23,12 +23,21 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+hide_share_buttons: true
 
 # Build settings
 markdown: kramdown
-remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
   - jekyll-feed
+  
+paginate: 5
+paginate_path: "/blog/page:num"
+
+defaults:
+  -
+    values:
+      author: "Andy Ho"
+      layout: post
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

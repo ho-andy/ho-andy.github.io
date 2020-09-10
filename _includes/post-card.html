@@ -1,0 +1,28 @@
+<div class="card">
+    {% if post.image %}
+    <div class="card-image" style="background-color: #30475e">
+		<a style="color:#f2a365" class="card-header-title" href="{{ site.baseurl }}{{ post.url }}">
+			<img src="{{ post.image }}" alt="{{ post.title }}" style="height:100%;width:100%">
+		</a>
+        
+    </div>
+    {% else %}
+    <header class="card-header" style="background-color: #30475e">
+        <a style="color:#f2a365" class="card-header-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
+    </header>
+    {% endif %}
+    <div class="card-content" style="background-color: #30475e">
+        <div class="content" style="color:#ececec">
+            {% if post.image %}
+            <a style="color:#f2a365" class="title is-4" href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
+            {% endif %}
+            <p>{{ post.excerpt }}</p>
+        </div>
+        <div class="has-text-centered">
+            <a href="{{ site.baseurl }}{{ post.url }}" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer" style="background-color: #30475e; color:#ececec">
+        <p class="card-footer-item">Published: {{ post.date | date: "%b %-d, %Y" }}</p>
+    </footer>
+</div>

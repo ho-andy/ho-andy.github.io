@@ -1,0 +1,40 @@
+<footer class="footer">
+    <div class="container">
+        
+        {% if site.footer_menu %}
+        <div class="columns is-multiline">
+            {% for item in site.data[site.footer_menu] %}
+            <div class="column has-text-centered">
+                <div>
+                    <a href="{{ item.link | relative_url }}" class="link">{{ item.name }}</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+		
+		<div class="content has-text-centered">
+			<span class="icon is-medium">
+				<a href="https://github.com/ho-andy">
+					<img src="..\img\GitHub-Mark-Light-120px-plus.png">
+				</a>
+			</span>
+			<span class="icon is-small"></span>
+			<span class="icon is-medium">
+				<a href="https://www.linkedin.com/in/a62ho/">
+					<img src="..\img\LI-In-Bug.png">
+				</a>
+			</span>
+			<span class="icon is-small"></span>
+			<span class="icon is-medium">
+				<a href="mailto:hoandy1998@gmail.com">
+					<img src="..\img\baseline_email_white_48dp.png">
+				</a>
+			</span>
+		</div>
+
+        <div class="content is-small has-text-centered">
+            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
