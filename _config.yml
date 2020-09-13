@@ -14,13 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Andy Ho
-email: your-email@example.com
+#email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Toronto-based developer. Where to find me, and things about me. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+#baseurl: "" # the subpath of your site, e.g. /blog
+url: https://andyho.ca
+image: 
+  path: /img/repository-open-graph-template.png
 hide_share_buttons: true
 google_analytics: UA-177753945-1
 
@@ -28,6 +28,7 @@ google_analytics: UA-177753945-1
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
   
 paginate: 5
 paginate_path: "/blog/page:num"
@@ -37,6 +38,10 @@ defaults:
     values:  #adds name to post
       author: "Andy Ho"
       layout: post
+  - scope:
+      path: ""
+    values:
+      image: /img/repository-open-graph-template.png
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
