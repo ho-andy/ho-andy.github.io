@@ -25,7 +25,10 @@
                         </div>
                     </div>
                     {% else %}
-                    <a href="{{ item.link | relative_url }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}" style="color: #222831">{{ item.name }}</a>
+					<!-- external link in new tab --> 
+                    <a href="{{ item.link | relative_url }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}" style="color: #222831" 
+					{% if item.link contains '.pdf' %}target="_blank"{% endif %}>
+					{{ item.name }}</a>
                     {% endif %}
                 {% endfor %}
                 {% endif %}
