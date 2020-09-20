@@ -18,3 +18,15 @@ $hero-darken: $dark !default;
 .gh-sponsor {
   color: #ea4aaa;
 }
+
+#typed, .typed-cursor {
+	color: #f2a365;
+	font-size: 2em;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bolder;
+	font-style: italic;
+	opacity: 1;
+}

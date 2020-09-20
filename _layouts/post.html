@@ -6,6 +6,15 @@ layout: default
 
     <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
 
+	{% if page.quote %}
+	<div id="typed-strings">
+		<p>
+			"{{ page.quote }}"
+		</p>
+	</div>
+	<span id="typed"></span>
+	<br><br><br>
+	{% endif %}
     {{ content }}
 </div>
 

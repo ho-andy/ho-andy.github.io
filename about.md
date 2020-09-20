@@ -3,12 +3,8 @@ title: About
 layout: page
 permalink: /about/
 hide_hero: true
+quote: invest in yourself cause yourself is all you have
 ---
-<br>
-
-*"invest in yourself cause yourself is all you have"*
-========================================================
-<br>
 
 Hi, as you may have already guessed, my name is Andy Ho. I’m currently a 4th year Computer Science student at Ryerson University. Throughout my time at Ryerson, I have taken on various co-op roles through the GTA and am currently looking for new grad positions in anticipation for my upcoming graduation in the spring of 2021. 
 
